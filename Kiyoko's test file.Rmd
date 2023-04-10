@@ -1,9 +1,10 @@
 ---
 title: "Test RMarkdown"
 author: "Dr. Kiyoko Gotanda"
-date: "`r Sys.Date()`"
-output: 
-  html_document: 
+date: '`r Sys.Date()`'
+output:
+  pdf_document: default
+  html_document:
     keep_md: yes
 ---
 
