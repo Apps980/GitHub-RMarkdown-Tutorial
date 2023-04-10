@@ -43,7 +43,7 @@ I'll explain the terminology in a bit, but a **"Pull"** pulls what is in the rep
 A **"Commit"** saves your work in the local folder.\
 A **"Push"** sends your new work to the GitHub repository.
 
-![](.\Figures\Terminology.png)
+![](./Figures/Terminology.png)
 
 ## 2. Why use RMD?
 
@@ -162,12 +162,12 @@ You should now have access to the repository I used for this tutorial.
 
 This should have automatically pulled the files from the repository, but it's a good place to show you where things are in RStudio.\
 
-![](.\Figures\Where-Git-is-in-RStudio.png)
+![](./Figures/Where-Git-is-in-RStudio.png)
 
 This is where you will find the tools related to using Git.\
 Under this bar, you will find the buttons for pulling, pushing and committing.\
 
-![](.\Figures\Push-Pull-Commit-in-Rstudio.png)
+![](./Figures/Push-Pull-Commit-in-Rstudio.png)
 
 >These buttons will be your bread and butter.
 
@@ -178,19 +178,19 @@ Let's make our first push and commit.
 Pull from the repository and find the "README.md" file. Open it.\
 Under checklist, add your name and whatever message you want to write. Save the file before you close it.
 
-![](.\Figures\Modified-File.png)
+![](./Figures/Modified-File.png)
 
 >Notice the blue "M" that appears next to the README file? Git detected a change.
 
 Now, click on the box under "Staged" in line with the README, then press "Commit". A new box should open.
 
-![](.\Figures\Your-first-Commit-1.png)
+![](./Figures/Your-first-Commit-1.png)
 
 >In green, you will have additions, in red, deletions.
 
 Now, enter a commit message, commit, then push.
 
-![](.\Figures\Your-first-Commit-2.png)
+![](./Figures/Your-first-Commit-2.png)
 
 >I predict only one of you will be successful.
 
@@ -222,7 +222,7 @@ There will be some information written at the top. Don't touch that yet, that's 
 
 The rest of the document gives some examples on what you can do in RMD. Pay close attention to the highlighted sections. These are coding chunks.
 
-![](.\Figures\New-Markdown.png)
+![](./Figures/New-Markdown.png)
 
 >The text in white under the coding chunk is regular text, like what you are reading now.
 
@@ -235,13 +235,13 @@ To do this, press the "knit" button at the top of the script. You can change wha
 \
 A preview should pop up.\
 
-![](.\Figures\Boilerplate-Script-1.png)
+![](./Figures/Boilerplate-Script-1.png)
 
 >Pretty cool, right?
 
 It even outputs your plots!
 
-![](.\Figures\Boilerplate-script-2.png)
+![](./Figures/Boilerplate-script-2.png)
 
 >Nifty! See how working with markdown makes showing off your script easier?
 
@@ -272,7 +272,7 @@ $Formulas$
 
 That's a lot to take in, but there's a cheat sheet in the resources AND RStudio is kind enough to provide us with tools for easier formatting.\
 
-![](.\Figures\Visual.png)
+![](./Figures/Visual.png)
 
 >In the top left of the script, there's a "Source" and "Visual" button.
 
@@ -363,7 +363,7 @@ It's all fun and games working in my repository, but a fledgling must leave the 
 
 To do so, go back to GitHub and open your repositories.
 
-![](.\Figures\New-Repository.png)
+![](./Figures/New-Repository.png)
 
 Then press the green "New" button.\
 Give a name to your new repository, a description, and a README file, then create the repository.
