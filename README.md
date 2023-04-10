@@ -3,3 +3,4 @@ Welcome! This is a quick tutorial on installing and connecting Github with Rstud
 
 Checklist:
 Alex Crow
+Alex Crow 2
