@@ -16,3 +16,13 @@ knitr::opts_chunk$set(echo = TRUE)
 This is going to be some random text and *trying* Alex's tips.
 
 **Let's make this bold.**
+
+```{r Kiyokos coding chunk 1}
+setwd("Data")
+data <- read.csv("data.csv")
+# plot(data)
+```
+
+```{r Kiyokos coding chunk 2, echo = F}
+boxplot(data)
+```
