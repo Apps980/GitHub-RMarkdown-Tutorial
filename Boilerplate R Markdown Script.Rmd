@@ -1,0 +1,9 @@
+---
+title: "Boilerplate R Markdown Script"
+author: "Alex Popescu"
+date: "`r Sys.Date()`"
+output: github_document
+---
+# Header 1
+## Header 2
+### Header 3
