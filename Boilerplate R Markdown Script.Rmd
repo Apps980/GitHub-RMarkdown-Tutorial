@@ -2,7 +2,7 @@
 title: "Boilerplate R Markdown Script"
 author: "Alex Popescu"
 date: "`r Sys.Date()`"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
