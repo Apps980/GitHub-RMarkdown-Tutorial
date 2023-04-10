@@ -195,11 +195,7 @@ Now, enter a commit message, commit, then push.
 For most of you, there will be an error! Oh no! Not to worry, this is one of the "joys" of collaborating in GitHub.\
 **This is why you should be pulling and pushing regularly!**
 
-<<<<<<< HEAD
 The issue that happened here is that one person pushed a change, and others do not have that change (yet). To get around this, pull first, then commit and push. More importantly, communicate with your collaborators! Tell them when you are trying to push something so that someone else doesn't push at the same time. 
-=======
-The issue that happened here is that one person committed a change, and others do not have that change (yet). To get around this, pull first, then commit and push. More importantly, communicate with your collaborators! Tell them when you are trying to push something so that someone else doesn't push at the same time. 
->>>>>>> 4a421d5ab54eac1a22f04b53a567d9f0253730de
 
 So once more, with passion! Try to pull, commit, and push. Reminder: it works best when you work as a team.
 

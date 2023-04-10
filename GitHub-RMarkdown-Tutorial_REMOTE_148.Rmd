@@ -195,11 +195,7 @@ Now, enter a commit message, commit, then push.
 For most of you, there will be an error! Oh no! Not to worry, this is one of the "joys" of collaborating in GitHub.\
 **This is why you should be pulling and pushing regularly!**
 
-<<<<<<< HEAD
-The issue that happened here is that one person pushed a change, and others do not have that change (yet). To get around this, pull first, then commit and push. More importantly, communicate with your collaborators! Tell them when you are trying to push something so that someone else doesn't push at the same time. 
-=======
 The issue that happened here is that one person committed a change, and others do not have that change (yet). To get around this, pull first, then commit and push. More importantly, communicate with your collaborators! Tell them when you are trying to push something so that someone else doesn't push at the same time. 
->>>>>>> 4a421d5ab54eac1a22f04b53a567d9f0253730de
 
 So once more, with passion! Try to pull, commit, and push. Reminder: it works best when you work as a team.
 
@@ -237,7 +233,7 @@ To do this, press the "knit" button at the top of the script. You can change wha
 \
 A preview should pop up. ![](Figures%5CBoilerplate%20Script%201.png)
 
->Pretty cool, right?
+>Pretty cool right?
 
 It even outputs your plots!
 
@@ -285,7 +281,7 @@ The source mode is your hard script. The visual mode let's you format your scrip
 
 Meat and potatoes. Why using RMD is awesome.
 
-To make a code chunk, start by entering \`\`\` followed by "{r [chunk name]}". Close the chunk with another \`\`\`.\
+To make a code chunk, start by entering \`\`\` followed by "{}". Close the chunk with another \`\`\`.\
 Inside the brackets, give a name to your chunk. This will help you keep the chunks organized, and you can quickly switch between chunks using the button on the bottom left of the window.\
 As with any R script, it is good nature to set your working directory and queue up the libraries you'll need. Your working directory is by default the main folder, but let's change it to Data and open the data file within it.
 
@@ -318,7 +314,7 @@ Now try ", include = F" and ", eval = F". There are many other options in the ch
 
 >If you're copy-pasting your chunk, be sure to change the name of the chunk.
 
-Let's keep going. Let's manipulate the data and run some tests.
+Let's keep going. Let's subset the data and run some tests.
 
 ```{r Subsetting, results = F}
 Big.SD<-data$Big.SD
