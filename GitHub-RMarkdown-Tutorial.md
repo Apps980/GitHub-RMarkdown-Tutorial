@@ -35,7 +35,8 @@ your files are always backed up.
 It also makes your work more accessible to others, as your repositories
 can be made public and available to other researchers, reviewers,
 collaborators, etc  
-It the workflow when working is simple:  
+
+The workflow when working is simple:  
 $Pull -> Work -> Pull -> Push -> Commit$
 
 I’ll explain the terminology in a bit, but a **“Pull”** pulls what is in
@@ -146,6 +147,8 @@ GUI (like RStudio for R). These include:
 
 I won’t go into these, since we won’t be working much more in the shell.
 
+------------------------------------------------------------------------
+
 ## 4. Connecting RStudio to GitHub
 
 Go back to your GitHub and [generate a “Personal Access
@@ -162,6 +165,7 @@ gitcreds::gitcreds_set()
 Enter your PAT.
 
 Congrats! The hard part is over!  
+
 You should now be able to push and pull from GitHub.
 
 ------------------------------------------------------------------------
@@ -177,7 +181,8 @@ not.
 In RStudio, go to *File \> New Project \> Version Control \> Git*  
 Now, copy this link and paste it as the “repository URL”.  
 “<https://github.com/Apps980/GitHub-RMarkdown-Tutorial.git>”  
-Make a new folder for this project, the press “Create Project”.  
+Make a new folder for this project, the press “Create Project”.
+
 You should now have access to the repository I used for this tutorial.
 
 ### 5.2 The tools
@@ -223,7 +228,7 @@ Now, enter a commit message, push, then commit.
 
 For most of you, there will be an error! Oh no! Not to worry, this is
 one of the “joys” of collaborating in GitHub.  
-**This is why you should be pulling and pushing regularly**
+**This is why you should be pulling and pushing regularly!**
 
 The issue that happened here is that one person committed a change, and
 others do not have that change (yet). To get around this, pull first,
@@ -289,7 +294,9 @@ It even outputs your plots!
 > Nifty! See how working with markdown makes showing off your script
 > easier?
 
-### 7 Formatting in RMD
+------------------------------------------------------------------------
+
+## 7 Formatting in RMD
 
 Let’s remove whats currently in the markdown script.
 
@@ -329,6 +336,8 @@ RStudio is kind enough to provide us with tools for easier formatting.
 The source mode is your hard script. The visual mode let’s you format
 your script in real time. Take some time to familiarize yourself with
 it.
+
+------------------------------------------------------------------------
 
 ## 8. Coding in RMD
 
@@ -453,6 +462,8 @@ learned how.
 Let’s have a look at your markdowns. Open the .md file you created in
 the GitHub repository and have a look at it.
 
+------------------------------------------------------------------------
+
 ## 9. Creating a new repository
 
 It’s all fun and games working in my repository, but a fledgling must
@@ -476,6 +487,8 @@ Then follow the instructions from 5. onwards.
 
 ## That’s it! You know should know how to use GitHub and R Markdown!
 
+------------------------------------------------------------------------
+
 ## 10. Resources
 
 You should definitely check out [Happy Git with
@@ -492,3 +505,5 @@ way to go. Trust the ducky.
 
 Lastly, I will make this tutorial available to everyone. Let me know if
 you’d like anything added to it.
+
+------------------------------------------------------------------------

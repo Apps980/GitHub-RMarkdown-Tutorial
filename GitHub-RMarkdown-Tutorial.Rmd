@@ -2,7 +2,7 @@
 title: "GitHub-RMarkdown Tutorial"
 author: "Gotanda Lab"
 date: "`r Sys.Date()`"
-output: github_document
+output: html_document
 ---
 
 # GitHub and RMarkDown Tutorial
@@ -24,7 +24,7 @@ Here's what I'd like to cover in this tutorial
 9.  Creating a new repository
 10. Resources
 
-## Let's get to it!
+**Let's get to it!**
 
 ------------------------------------------------------------------------
 
@@ -33,7 +33,8 @@ Here's what I'd like to cover in this tutorial
 GitHub is a great tool for keeping track of edits, collaborating on projects and (so) much more.\
 It keeps your files on GitHub as well as your computer, and therefore your files are always backed up.\
 It also makes your work more accessible to others, as your repositories can be made public and available to other researchers, reviewers, collaborators, etc\
-It the workflow when working is simple:\
+
+The workflow when working is simple:\
 $Pull -> Work -> Pull -> Push -> Commit$
 
 I'll explain the terminology in a bit, but a **"Pull"** pulls what is in the repository (in case there were changes made) into your local folder.\
@@ -119,6 +120,7 @@ Working in the shell is not for everyone. It is recommended you use a GUI (like 
 
 I won't go into these, since we won't be working much more in the shell.
 
+***
 ## 4. Connecting RStudio to GitHub
 
 Go back to your GitHub and [generate a "Personal Access Token"](https://github.com/settings/tokens) or PAT.\
@@ -134,6 +136,7 @@ gitcreds::gitcreds_set()
 Enter your PAT.
 
 Congrats! The hard part is over!\
+
 You should now be able to push and pull from GitHub.
 
 ------------------------------------------------------------------------
@@ -147,7 +150,8 @@ Cloning essentially means copying what is currently in a GitHub repository onto 
 In RStudio, go to *File \> New Project \> Version Control \> Git*\
 Now, copy this link and paste it as the "repository URL".\
 "<https://github.com/Apps980/GitHub-RMarkdown-Tutorial.git>"\
-Make a new folder for this project, the press "Create Project".\
+Make a new folder for this project, the press "Create Project".
+
 You should now have access to the repository I used for this tutorial.
 
 ### 5.2 The tools
@@ -187,7 +191,7 @@ Now, enter a commit message, push, then commit.
 >I predict only one of you will be successful.
 
 For most of you, there will be an error! Oh no! Not to worry, this is one of the "joys" of collaborating in GitHub.\
-**This is why you should be pulling and pushing regularly**
+**This is why you should be pulling and pushing regularly!**
 
 The issue that happened here is that one person committed a change, and others do not have that change (yet). To get around this, pull first, then push and commit. More importantly, communicate with your collaborators! Tell them when you are trying to commit something so that someone else doesn't commit at the same time. So once more, with passion! Try to pull, push, and commit. Reminder: it works best when you work as a team.
 
@@ -233,7 +237,8 @@ It even outputs your plots!
 
 >Nifty! See how working with markdown makes showing off your script easier?
 
-### 7 Formatting in RMD
+***
+## 7 Formatting in RMD
 
 Let's remove whats currently in the markdown script.
 
@@ -267,6 +272,7 @@ That's a lot to take in, but there's a cheat sheet in the resources AND RStudio 
 
 The source mode is your hard script. The visual mode let's you format your script in real time. Take some time to familiarize yourself with it.
 
+***
 ## 8. Coding in RMD
 
 Meat and potatoes. Why using RMD is awesome.
@@ -343,6 +349,7 @@ Let's make one final push and commit to the repository. I trust you've learned h
 
 Let's have a look at your markdowns. Open the .md file you created in the GitHub repository and have a look at it.
 
+***
 ## 9. Creating a new repository
 It's all fun and games working in my repository, but a fledgling must leave the nest and take to the skies. This involves making your own repository.
 
@@ -359,8 +366,9 @@ Lastly, copy the link to the repository from the green "<> Code" button.
 
 Then follow the instructions from 5. onwards.
 
-## That's it! You know should know how to use GitHub and R Markdown!
+**That's it! You know should know how to use GitHub and R Markdown!**
 
+***
 ## 10. Resources
 You should definitely check out [Happy Git with R](https://happygitwithr.com/index.html) for resources involving GitHub and R.
 
@@ -369,4 +377,6 @@ The [R Markdown CheatSheet](https://www.rstudio.com/wp-content/uploads/2015/02/r
 When you have issues, [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is the way to go. Trust the ducky.
 
 Lastly, I will make this tutorial available to everyone. Let me know if you'd like anything added to it.
+
+***
 
