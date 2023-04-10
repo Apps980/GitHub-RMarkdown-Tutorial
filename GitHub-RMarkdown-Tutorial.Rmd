@@ -7,11 +7,11 @@ output: html_document
 
 # GitHub and RMarkDown Tutorial
 
-Welcome! This will be a bumpy ride, but we'll get through it together.
+Welcome! This will be a bumpy ride but we'll get through it together.
 
 ## First things first
 
-Here's what I'd like to cover in this tutorial
+Here's what I'd like to cover in this tutorial:
 
 1.  Why use GitHub
 2.  Why use RMD
@@ -35,17 +35,19 @@ It keeps your files on GitHub as well as your computer, and therefore your files
 It also makes your work more accessible to others, as your repositories can be made public and available to other researchers, reviewers, collaborators, etc\
 
 The workflow when working is simple:\
-$Pull -> Work -> Pull -> Push -> Commit$
+$Pull -> Work -> Pull -> Commit -> Push$
 
 I'll explain the terminology in a bit, but a **"Pull"** pulls what is in the repository (in case there were changes made) into your local folder.\
-A **"Push"** saves your work in the local folder.\
-A **"Commit"** sends your new work to the GitHub repository.
+A **"Commit"** saves your work in the local folder.\
+A **"Push"** sends your new work to the GitHub repository.
+
+![](Figures\Terminology.png)
 
 ## 2. Why use RMD?
 
 RMarkdown is fantastic for showing your R scripts to someone. It makes your work repeatable, simple to see, and reduces the chance that your script encounters problems such as different R versions, packages and the many other headaches you get when trying to show scripts.\
 In simple terms, it makes sharing R scripts easier.\
-That being said, you can do much more than write scripts in RMD. **This tutorial was make in RMD!**\
+That being said, you can do much more than write scripts in RMD. **This tutorial was made in RMD!**\
 It runs off the same language Obsidian does, and therefore the same language for formatting. Don't worry, I'll have a refresher when we're dealing with RMD.
 
 ------------------------------------------------------------------------
@@ -69,7 +71,7 @@ If that interests you, click [here](https://education.github.com/discount_reques
 ### 3.2 Actually installing Git
 
 **MAKE SURE YOU ARE USING THE CURRENT VERSION OF R**\
-This might come as a surprise, but there's yet another version of R. Try and keep up to date, since many packages require the more recent packages.\
+This might come as a surprise, but there's yet another version of R. Try and keep up to date, since many packages require the more recent versions.\
 If you are not sure, run the following commands in R:
 
 ```{r R Version}
@@ -184,7 +186,7 @@ Now, click on the box under "Staged" in line with the README, then press "Commit
 
 >In green, you will have additions, in red, deletions.
 
-Now, enter a commit message, push, then commit.
+Now, enter a commit message, commit, then push.
 
 ![](Figures%5CYour%20first%20Commit%20-%202.png)
 
@@ -193,7 +195,9 @@ Now, enter a commit message, push, then commit.
 For most of you, there will be an error! Oh no! Not to worry, this is one of the "joys" of collaborating in GitHub.\
 **This is why you should be pulling and pushing regularly!**
 
-The issue that happened here is that one person committed a change, and others do not have that change (yet). To get around this, pull first, then push and commit. More importantly, communicate with your collaborators! Tell them when you are trying to commit something so that someone else doesn't commit at the same time. So once more, with passion! Try to pull, push, and commit. Reminder: it works best when you work as a team.
+The issue that happened here is that one person committed a change, and others do not have that change (yet). To get around this, pull first, then commit and push. More importantly, communicate with your collaborators! Tell them when you are trying to push something so that someone else doesn't push at the same time. 
+
+So once more, with passion! Try to pull, commit, and push. Reminder: it works best when you work as a team.
 
 ### 5.4 Let's double check
 
@@ -345,7 +349,7 @@ boxplot(data.together, boxwex=0.5, ylim=c(3.5, 6.5), col="Gray", medlwd=2, whisk
 
 >Won't you look at that... The Big SD dataset has a wider distribution than the Small SD dataset.
 
-Let's make one final push and commit to the repository. I trust you've learned how.
+Let's make one final commit and push to the repository. I trust you've learned how.
 
 Let's have a look at your markdowns. Open the .md file you created in the GitHub repository and have a look at it.
 
